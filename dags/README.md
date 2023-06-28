@@ -24,3 +24,11 @@ Before running the project, make sure you have the following:
     ```shell
     docker-compose up -d
     ```
+
+- To stop and remove the containers, make sure you're in the `dockerized` directory and run
+    ```
+    docker compose down
+    ```
+- To remove the volumes as well, add the flag `-v` to the command above.
+
+- At any time you can check the container/s currently running by using `docker ps`
