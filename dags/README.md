@@ -1,6 +1,7 @@
 # Aircraft Accidents Project
 
 This project runs through Apache Airflow in a Docker environment and focuses on collecting data on aircraft accidents. The scraper retrieves data from the [baaa-acro.com](https://www.baaa-acro.com/) website and populates a PostgreSQL database. The collected data is then used for analytics in Metabase.
+
 **Note: This project is currently under development and not yet completed.**
 
 ## Features
